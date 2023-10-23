@@ -16,5 +16,21 @@ $cBlack: black;
     text-decoration: none !important;
 
     /* ここにボタンのスタイルを追加していこう */
+    &.filled{
+      background-color: $cBlack;
+      color: $cWhite;
+      &:hover{
+        background-color: $cwhite;
+        color: $cBlack;
+        box-shadow: none;
+      }
+    }
+
+    &.letter-spacing:hover {
+      background-color: $cBlack;
+      letter-spacing: 3px;
+      color: $cWhite;
+    }
+
   }
 }
